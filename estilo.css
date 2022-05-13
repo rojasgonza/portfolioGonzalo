@@ -1,0 +1,69 @@
+body{margin-top: 56px;
+    box-sizing: border-box;
+    font-family: 'Anek Tamil', sans-serif;
+background-image: url(images/back.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
+color: blue}
+* img{
+    object-fit: cover;
+}
+a::hover{
+    cursor: pointer;
+}
+
+    .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+
+
+#presentacioncv{
+  background-image: url(images/programador1.jpeg);
+   height: 97vh;
+   background-size: cover;
+   width: 100% ;
+   text-align: center;
+   background-color: rgb(50,50,50);
+   background-blend-mode:soft-light;
+   
+}
+#contacto{
+  margin-top: 6%;
+  padding-bottom:20px ;
+  border-radius: 20px;
+}
+.skillbar {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.skillbar-bar:before {
+    background: #eee;
+    content: "";
+    height: 3px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.skillbar-bar {
+    height: 3px;
+    width: 0px;
+    background: #323232;
+    transition-property: width, background-color;
+}
+
+.skillbar-title {
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.skill-bar-percent {
+    float: right;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
